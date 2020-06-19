@@ -24,7 +24,7 @@ There are several files:
 1. Pull docker image 
 
    ```
-   docker push tkiv/dante-socks5
+   docker pull tkiv/dante-socks5
    ```
 
 2. Modify [users.list](https://github.com/tkiv/dante-socks5/blob/master/users.list) 
