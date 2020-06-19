@@ -18,7 +18,7 @@
 2. Run the container (you could change port for proxy, for example 11111:1080)
 
    ```
-   docker run -it -d -p 1080:1080 --name tkdante tkiv/dante-socks5
+   docker run -it -d -p 1080:1080 --restart always --name tkdante tkiv/dante-socks5
    ```
 
 3. Add users for proxy
