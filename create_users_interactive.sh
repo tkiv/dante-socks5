@@ -9,3 +9,5 @@ if [ "$PROXY_USER" ]; then
   adduser -D -H -s /sbin/nologin $PROXY_USER
   echo $PROXY_USER:$PROXY_PASSWORD | chpasswd
 fi
+
+exec "$@"
