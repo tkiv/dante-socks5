@@ -6,10 +6,8 @@ RUN apk add dante-server --no-cache \
     && rm -rf /var/cache/apk/*
 
 COPY sockd.conf /etc/sockd.conf
-COPY create_users_interactive.sh /scripts/create_users_interactive.sh
+COPY addusers.sh /scripts/addusers.sh
 
 EXPOSE 1080
-
-ENTRYPOINT ["/scripts/create_users_interactive.sh"]
 
 CMD ["/usr/sbin/sockd"]
