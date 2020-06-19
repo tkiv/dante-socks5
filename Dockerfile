@@ -10,7 +10,7 @@ COPY create_users_from_file.sh /scripts/create_users_from_file.sh
 COPY create_users_interactive.sh /scripts/create_users_interactive.sh
 COPY users.list /scripts/users.list
 
-EXPOSE 14141
+EXPOSE 1080
 
 ENTRYPOINT ["/scripts/create_users_from_file.sh"]
 
