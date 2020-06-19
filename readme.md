@@ -24,7 +24,7 @@
 3. Add users for proxy
 
    ```
-   docker exec -it tkdante /scrtipts/addusers.sh
+   docker exec -it tkdante /scripts/addusers.sh
    ```
 
    
